@@ -1,0 +1,3 @@
+# the m bash script and the activate symlink are created by quickinstall.py
+
+/usr/local/opt/python/bin/python2.7 make.py $*

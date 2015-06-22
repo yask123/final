@@ -1,0 +1,38 @@
+== Geral ==
+
+ * Utilize uma ou mais linhas em branco para separar parágrafos.
+ * Utilize `<<BR>>` para inserir quebras de linha nos parágrafos
+
+== Formatação da fonte ==
+
+## Repare que em alguns exemplos utilizamos acentos graves para "escapar" à formatação do Wiki.
+
+||''' Nome/Exemplo''' || ''' Formatação '''   || ''' Notas '''          ||
+||  ''itálico''     || `''itálico''`       || Duas plicas.  ||
+||  '''negrito'''     || `'''negrito'''`       || Três plicas.  ||
+||  `mono-espaçada`    || {{{`mono-espaçada`}}}  || Acentos graves. A formatação Wiki é ignorada.   ||
+||  {{{código}}}     || `{{{código}}}`       || [[#code_example|Exemplo.]]  A formatação Wiki é ignorada. ||
+||  __sublinhado__  || `__sublinhado__`    ||                         ||
+||  ^texto^superescrito  || `^texto superescrito^`    ||                         ||
+||  ,,texto,,subescrito  || `,,texto subescrito,,`    ||                         ||
+||  ~-menor-~    || `~-menor-~`      ||                         ||
+||  ~+maior+~     || `~+maior+~`       ||                         ||
+|| --(rasurado)--    || `--(rasurado)--`     || [[WikiMoinMoin|MoinMoin]] Versão 1.5+   ||
+
+== Colorir texto  ==
+
+É possível colorir nas tabelas sem macros adicionais (ver AjudaComTabelas). 
+
+
+Consulte também o tópico [[MoinMaster:AjudasDiversas/PerguntasMaisFrequentes#colorir|Como posso colorir o meu texto?]] nas FAQ.
+
+== Código para colorir (Sintaxe de Destaque) ==
+
+Existem várias formas de código de destaque:
+ 1. Inicie um bloco de código especial incluindo o nome do parser: `{{{#!nome do parser`
+ 2. Inclua um anexo de ficheiros com uma extensão suportada (como `".py"`) com `inline:`
+ 3. Inicie uma página com a instrução de processamento do formato: `#format nome do parser`
+
+[[#SyntaxHighlighting|Exemplo.]]
+
+Para ver a lista de linguagens suportadas consulte o tópico AjudaComParsers.

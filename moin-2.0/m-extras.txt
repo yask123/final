@@ -1,0 +1,100 @@
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting python-openid
+  Using cached python-openid-2.2.5.tar.gz
+Installing collected packages: python-openid
+  Running setup.py install for python-openid
+Successfully installed python-openid-2.2.5
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pillow
+  Downloading Pillow-2.8.2-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (2.8MB)
+Installing collected packages: pillow
+
+Successfully installed pillow-2.8.2
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pymongo
+  Using cached pymongo-3.0.2-cp27-none-macosx_10_8_intel.whl
+Installing collected packages: pymongo
+
+Successfully installed pymongo-3.0.2
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting sqlalchemy
+  Downloading SQLAlchemy-1.0.5.tar.gz (4.6MB)
+Installing collected packages: sqlalchemy
+  Running setup.py install for sqlalchemy
+    building 'sqlalchemy.cprocessors' extension
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c lib/sqlalchemy/cextension/processors.c -o build/temp.macosx-10.10-x86_64-2.7/lib/sqlalchemy/cextension/processors.o
+    clang -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.10-x86_64-2.7/lib/sqlalchemy/cextension/processors.o -o build/lib.macosx-10.10-x86_64-2.7/sqlalchemy/cprocessors.so
+    building 'sqlalchemy.cresultproxy' extension
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c lib/sqlalchemy/cextension/resultproxy.c -o build/temp.macosx-10.10-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o
+    clang -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.10-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o -o build/lib.macosx-10.10-x86_64-2.7/sqlalchemy/cresultproxy.so
+    building 'sqlalchemy.cutils' extension
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c lib/sqlalchemy/cextension/utils.c -o build/temp.macosx-10.10-x86_64-2.7/lib/sqlalchemy/cextension/utils.o
+    clang -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.10-x86_64-2.7/lib/sqlalchemy/cextension/utils.o -o build/lib.macosx-10.10-x86_64-2.7/sqlalchemy/cutils.so
+Successfully installed sqlalchemy-1.0.5
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting python-ldap
+  Using cached python-ldap-2.4.19.tar.gz
+    defines: HAVE_SASL HAVE_TLS HAVE_LIBLDAP_R
+    extra_compile_args:
+    extra_objects:
+    include_dirs: /opt/openldap-RE24/include /usr/include/sasl /usr/include
+    library_dirs: /opt/openldap-RE24/lib /usr/lib
+    libs: ldap_r
+    file Lib/ldap.py (for module ldap) not found
+    file Lib/ldap/controls.py (for module ldap.controls) not found
+    file Lib/ldap/extop.py (for module ldap.extop) not found
+    file Lib/ldap/schema.py (for module ldap.schema) not found
+Collecting setuptools from https://pypi.python.org/packages/3.4/s/setuptools/setuptools-17.1.1-py2.py3-none-any.whl#md5=8a540687a8341088e2b280ad2ceb4e5b (from python-ldap)
+  Downloading setuptools-17.1.1-py2.py3-none-any.whl (461kB)
+Installing collected packages: setuptools, python-ldap
+  Found existing installation: setuptools 12.0.5
+    Uninstalling setuptools-12.0.5:
+      Successfully uninstalled setuptools-12.0.5
+
+  Running setup.py install for python-ldap
+    defines: HAVE_SASL HAVE_TLS HAVE_LIBLDAP_R
+    extra_compile_args:
+    extra_objects:
+    include_dirs: /opt/openldap-RE24/include /usr/include/sasl /usr/include
+    library_dirs: /opt/openldap-RE24/lib /usr/lib
+    libs: ldap_r
+    file Lib/ldap.py (for module ldap) not found
+    file Lib/ldap/controls.py (for module ldap.controls) not found
+    file Lib/ldap/extop.py (for module ldap.extop) not found
+    file Lib/ldap/schema.py (for module ldap.schema) not found
+    file Lib/ldap.py (for module ldap) not found
+    file Lib/ldap/controls.py (for module ldap.controls) not found
+    file Lib/ldap/extop.py (for module ldap.extop) not found
+    file Lib/ldap/schema.py (for module ldap.schema) not found
+    file Lib/ldap.py (for module ldap) not found
+    file Lib/ldap/controls.py (for module ldap.controls) not found
+    file Lib/ldap/extop.py (for module ldap.extop) not found
+    file Lib/ldap/schema.py (for module ldap.schema) not found
+    building '_ldap' extension
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/LDAPObject.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/LDAPObject.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/ldapcontrol.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/ldapcontrol.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/common.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/common.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/constants.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/constants.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/errors.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/errors.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/functions.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/functions.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/schema.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/schema.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/ldapmodule.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/ldapmodule.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/message.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/message.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/version.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/version.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/options.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/options.o
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -DHAVE_SASL -DHAVE_TLS -DHAVE_LIBLDAP_R -DHAVE_LIBLDAP_R -DLDAPMODULE_VERSION=2.4.19 -IModules -I/opt/openldap-RE24/include -I/usr/include/sasl -I/usr/include -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c Modules/berval.c -o build/temp.macosx-10.10-x86_64-2.7/Modules/berval.o
+    clang -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.10-x86_64-2.7/Modules/LDAPObject.o build/temp.macosx-10.10-x86_64-2.7/Modules/ldapcontrol.o build/temp.macosx-10.10-x86_64-2.7/Modules/common.o build/temp.macosx-10.10-x86_64-2.7/Modules/constants.o build/temp.macosx-10.10-x86_64-2.7/Modules/errors.o build/temp.macosx-10.10-x86_64-2.7/Modules/functions.o build/temp.macosx-10.10-x86_64-2.7/Modules/schema.o build/temp.macosx-10.10-x86_64-2.7/Modules/ldapmodule.o build/temp.macosx-10.10-x86_64-2.7/Modules/message.o build/temp.macosx-10.10-x86_64-2.7/Modules/version.o build/temp.macosx-10.10-x86_64-2.7/Modules/options.o build/temp.macosx-10.10-x86_64-2.7/Modules/berval.o -L/opt/openldap-RE24/lib -L/usr/lib -L/opt/openldap-RE24/lib -L/usr/lib -lldap_r -o build/lib.macosx-10.10-x86_64-2.7/_ldap.so
+    ld: warning: directory not found for option '-L/opt/openldap-RE24/lib'
+    ld: warning: directory not found for option '-L/opt/openldap-RE24/lib'
+    /Users/yask/final/moin-2.0-venv-python2.7/bin/python2.7 -O /var/folders/gt/w4wtct056zd_11ypdzh8jtp80000gn/T/tmpsXGD27.py
+    removing /var/folders/gt/w4wtct056zd_11ypdzh8jtp80000gn/T/tmpsXGD27.py
+    file Lib/ldap.py (for module ldap) not found
+    file Lib/ldap/controls.py (for module ldap.controls) not found
+    file Lib/ldap/extop.py (for module ldap.extop) not found
+    file Lib/ldap/schema.py (for module ldap.schema) not found
+Successfully installed python-ldap-2.4.19 setuptools-17.1.1

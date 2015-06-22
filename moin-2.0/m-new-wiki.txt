@@ -1,0 +1,32 @@
+2015-06-18 23:35:23,944 INFO MoinMoin.log:157 using logging configuration read from built-in fallback in MoinMoin.log module!
+2015-06-18 23:35:23,944 INFO MoinMoin.log:162 Running MoinMoin 2.0.0a0 code from /Users/yask/final/moin-2.0/MoinMoin
+2015-06-18 23:35:27,366 INFO MoinMoin.util.clock:45 timer create_app load config(0): 362.83ms
+2015-06-18 23:35:27,500 INFO MoinMoin.util.clock:45 timer create_app register(0): 133.86ms
+2015-06-18 23:35:27,501 WARNING MoinMoin.log:119 /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/flask_cache/__init__.py:152: UserWarning: Flask-Cache: CACHE_TYPE is set to null, caching is effectively disabled.
+2015-06-18 23:35:27,530 INFO MoinMoin.util.clock:45 timer create_app flask-cache(0): 29.39ms
+2015-06-18 23:35:27,602 INFO MoinMoin.util.clock:45 timer create_app init backends(0): 71.47ms
+2015-06-18 23:35:27,602 INFO MoinMoin.util.clock:45 timer create_app flask-babel(0): 0.09ms
+2015-06-18 23:35:27,603 INFO MoinMoin.util.clock:45 timer create_app flask-themes(0): 0.55ms
+2015-06-18 23:35:27,603 INFO MoinMoin.util.clock:45 timer create_app total(0): 600.02ms
+2015-06-18 23:35:35,271 INFO MoinMoin.log:157 using logging configuration read from built-in fallback in MoinMoin.log module!
+2015-06-18 23:35:35,271 INFO MoinMoin.log:162 Running MoinMoin 2.0.0a0 code from /Users/yask/final/moin-2.0/MoinMoin
+2015-06-18 23:35:40,674 INFO MoinMoin.util.clock:45 timer create_app load config(0): 306.56ms
+2015-06-18 23:35:40,810 INFO MoinMoin.util.clock:45 timer create_app register(0): 135.36ms
+2015-06-18 23:35:40,810 WARNING MoinMoin.log:119 /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/flask_cache/__init__.py:152: UserWarning: Flask-Cache: CACHE_TYPE is set to null, caching is effectively disabled.
+2015-06-18 23:35:40,847 INFO MoinMoin.util.clock:45 timer create_app flask-cache(0): 36.95ms
+2015-06-18 23:35:40,965 INFO MoinMoin.util.clock:45 timer create_app init backends(0): 117.44ms
+2015-06-18 23:35:40,965 INFO MoinMoin.util.clock:45 timer create_app flask-babel(0): 0.16ms
+2015-06-18 23:35:40,967 INFO MoinMoin.util.clock:45 timer create_app flask-themes(0): 1.19ms
+2015-06-18 23:35:40,967 INFO MoinMoin.util.clock:45 timer create_app total(0): 601.28ms
+2015-06-18 23:35:44,578 INFO MoinMoin.log:157 using logging configuration read from built-in fallback in MoinMoin.log module!
+2015-06-18 23:35:44,579 INFO MoinMoin.log:162 Running MoinMoin 2.0.0a0 code from /Users/yask/final/moin-2.0/MoinMoin
+2015-06-18 23:35:47,675 INFO MoinMoin.util.clock:45 timer create_app load config(0): 204.83ms
+2015-06-18 23:35:47,760 INFO MoinMoin.util.clock:45 timer create_app register(0): 69.48ms
+2015-06-18 23:35:47,760 WARNING MoinMoin.log:119 /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/flask_cache/__init__.py:152: UserWarning: Flask-Cache: CACHE_TYPE is set to null, caching is effectively disabled.
+2015-06-18 23:35:47,789 INFO MoinMoin.util.clock:45 timer create_app flask-cache(0): 29.75ms
+2015-06-18 23:35:47,860 INFO MoinMoin.util.clock:45 timer create_app init backends(0): 70.85ms
+2015-06-18 23:35:47,861 INFO MoinMoin.util.clock:45 timer create_app flask-babel(0): 0.09ms
+2015-06-18 23:35:47,861 INFO MoinMoin.util.clock:45 timer create_app flask-themes(0): 0.59ms
+2015-06-18 23:35:47,861 INFO MoinMoin.util.clock:45 timer create_app total(0): 392.02ms
+<string>:135: (ERROR/3) Unknown target name: "internal_links".
+<string>:135: (ERROR/3) Unknown target name: "internal_links".

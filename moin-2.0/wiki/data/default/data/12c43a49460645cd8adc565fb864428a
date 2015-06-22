@@ -1,0 +1,262 @@
+= Creole Syntax =
+
+**Creole** <<FootNote("http://www.wikicreole.org/")>> is a new wiki markup language - its goal is to become the one common wiki syntax and enable better exchange of content between different wiki engines.
+
+This page introduces you to the most important elements of the creole syntax. Under each heading within a shaded box is the verbatim markup followed by the output as rendered by the wiki engine. The display of some of the features depends upon your wiki configuration and choice of theme.
+
+  //BTW: This very page is written in creole syntax!//
+
+== Table of Contents ==
+**Contents** (up to the 2nd level)
+
+**Markup:**
+
+{{{
+<<TableOfContents(2)>>
+}}}
+
+**Result:**
+
+<<TableOfContents(2)>>
+
+
+== Headings ==
+
+**Markup:**
+
+{{{
+=== heading 3rd level ===
+==== heading 4th level ====
+===== heading 5th level =====
+}}}
+
+**Result:**
+
+=== heading 3rd level ===
+==== heading 4th level ====
+===== heading 5th level =====
+
+== Text Formatting ==
+
+**Markup:**
+
+{{{
+* //emphasized (italics)//
+* **boldface**
+* **//bold italics//**, //**italics bold**//
+* {{{monospace}}}
+}}}
+
+**Result:**
+
+* //emphasized (italics)//
+* **boldface**
+* **//bold italics//**, //**italics bold**//
+* {{{monospace}}}
+
+
+== Hyperlinks ==
+=== Internal Links ===
+
+Creole does not support links to anchors.
+
+**Markup:**
+
+{{{
+* [[Home]]
+* [[Home/subitem]]
+* [[/MissingSubItem]]
+* [[../Home|sibling item]]
+* [[Home|go to home]]
+* [[MissingPage]]
+* [[Home|{{png}} Go **Home**]]
+}}}
+
+**Result:**
+
+* [[Home]]
+* [[Home/subitem]]
+* [[/MissingSubItem]]
+* [[../Home|sibling item]]
+* [[Home|go to home]]
+* [[MissingPage]]
+* [[Home|{{png}} Go **Home**]]
+
+=== External Links ===
+
+**Markup:**
+
+{{{
+* http://moinmo.in/
+* [[http://moinmo.in/]]
+* [[http://moinmo.in/|MoinMoin Wiki]]
+* [[http://static.moinmo.in/logos/moinmoin.png]]
+* [[http://static.moinmo.in/logos/moinmoin.png|moinmoin.png]]
+* [[MeatBall:InterWiki|InterWiki page on **MeatBall**]]
+* [[file://///servername/share/full/path/to/file/filename%20with%20spaces.txt|link to file filename with spaces.txt]]
+* [[http://moinmo.in|{{png}} Go to **moinmo.in**]]
+}}}
+
+**Result:**
+
+* http://moinmo.in/
+* [[http://moinmo.in/]]
+* [[http://moinmo.in/|MoinMoin Wiki]]
+* [[http://static.moinmo.in/logos/moinmoin.png]]
+* [[http://static.moinmo.in/logos/moinmoin.png|moinmoin.png]]
+* [[MeatBall:InterWiki|InterWiki page on **MeatBall**]]
+* [[file://///servername/share/full/path/to/file/filename%20with%20spaces.txt|link to file filename with spaces.txt]]
+* [[http://moinmo.in|{{png}} Go to **moinmo.in**]]
+
+=== Images (transclusions) ===
+
+Creole syntax has no facility to position or resize images.
+
+**Markup:**
+
+{{{
+# {{png}}
+# {{svg|my svg}}
+# {{http://static.moinmo.in/logos/moinmoin.png}}
+# {{http://moinmo.in}}
+}}}
+
+**Result:**
+
+# {{png}}
+# {{svg|my svg}}
+# {{http://static.moinmo.in/logos/moinmoin.png}}
+# {{http://moinmo.in}}
+
+
+=== Avoid or Limit Automatic Linking ===
+
+**Markup:**
+
+{{{
+ * {{{http://www.example.com}}}
+ * ~http://www.example.com/
+}}}
+
+**Result:**
+
+ * {{{http://www.example.com}}}
+ * ~http://www.example.com/
+
+
+== Lists ==
+=== Unordered Lists ===
+
+**Markup:**
+
+{{{
+* item 1
+
+* item 2 (preceding white space)
+** item 2.1
+*** item 2.1.1
+* item 3
+}}}
+
+**Result:**
+
+* item 1
+
+* item 2 (preceding white space)
+** item 2.1
+*** item 2.1.1
+* item 3
+
+=== Ordered Lists ===
+
+**Markup:**
+
+{{{
+# item 1
+## item 1.1
+## item 1.2
+# item 2
+}}}
+
+**Result:**
+
+# item 1
+## item 1.1
+## item 1.2
+# item 2
+
+
+== Horizontal Rule ==
+
+**Markup:**
+
+{{{
+----
+}}}
+
+**Result:**
+
+----
+
+
+== Tables ==
+
+Creole has an unusual feature that allows table headings to be placed on either rows or columns. The trailing "|" character at the end of a table row is optional.
+
+**Markup:**
+
+{{{
+|=A |=B |=C |
+| 1 | 222 | 33333 |
+
+|=X|1
+|=Y|123
+|=Z|12345
+}}}
+
+**Result:**
+
+|=A |=B |=C |
+| 1 | 222 | 33333 |
+
+|=X|1
+|=Y|123
+|=Z|12345
+
+== Linebreak ==
+
+**Markup:**
+
+{{{
+forced\\linebreak
+}}}
+
+**Result:**
+
+forced\\linebreak
+
+== No Wiki Markup ==
+
+**Markup:**
+
+{{{
+ {{{
+ Enclose
+       preformatted
+                  code 
+                     in triple curly brackets
+ }}}
+}}}
+
+**Result:**
+
+{{{
+Enclose
+      preformatted
+                 code 
+                    in triple curly brackets
+}}}
+
+----
+See also [[http://www.wikicreole.org/attach/CheatSheet/creole_cheat_sheet.png|CreoleCheatCheet]] (PNG image)
+----

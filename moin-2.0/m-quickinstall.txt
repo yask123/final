@@ -1,0 +1,233 @@
+You are using pip version 6.0.8, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+DEPRECATION: --download-cache has been deprecated and will be removed in the future. Pip now automatically uses and configures its cache.
+Obtaining file:///Users/yask/final/moin-2.0
+    /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'message_extractors'
+      warnings.warn(msg)
+  DEPRECATION: Dependency Links processing has been deprecated and will be removed in a future release.
+Collecting blinker>=1.1 (from moin==2.0.0a0)
+  Using cached blinker-1.3.tar.gz
+Collecting docutils>=0.8.1 (from moin==2.0.0a0)
+  Using cached docutils-0.12.tar.gz
+Collecting Markdown>=2.1.1 (from moin==2.0.0a0)
+  Using cached Markdown-2.6.2-py2.py3-none-any.whl
+Collecting Flask>=0.10 (from moin==2.0.0a0)
+  Using cached Flask-0.10.1.tar.gz
+Collecting Flask-Babel>=0.7 (from moin==2.0.0a0)
+  Using cached Flask-Babel-0.9.tar.gz
+Collecting Flask-Cache>=0.3.4 (from moin==2.0.0a0)
+  Using cached Flask-Cache-0.13.1.tar.gz
+Collecting Flask-Script==1.0.0 (from moin==2.0.0a0)
+  Using cached Flask-Script-1.0.0.tar.gz
+Collecting Flask-Themes>=0.2.0 (from moin==2.0.0a0)
+  Downloading https://bitbucket.org/thomaswaldmann/flask-themes/get/a87399231886.tar.gz
+Collecting emeraldtree>=0.9.3dev (from moin==2.0.0a0)
+  Downloading https://bitbucket.org/thomaswaldmann/emeraldtree/get/tip.tar.gz
+Collecting flatland (from moin==2.0.0a0)
+  Using cached flatland-0.8.tar.gz
+Collecting Jinja2>=2.7 (from moin==2.0.0a0)
+  Using cached Jinja2-2.7.3.tar.gz
+Collecting pygments>=1.4 (from moin==2.0.0a0)
+  Using cached Pygments-2.0.2-py2-none-any.whl
+Collecting Werkzeug==0.9.6 (from moin==2.0.0a0)
+  Using cached Werkzeug-0.9.6.tar.gz
+Collecting pytest<2.7 (from moin==2.0.0a0)
+  Using cached pytest-2.6.4.tar.gz
+Collecting pytest-pep8<1.1 (from moin==2.0.0a0)
+  Using cached pytest-pep8-1.0.6.tar.gz
+    warning: no directories found matching 'doc'
+    warning: no directories found matching 'test_pep8.py'
+Collecting whoosh>=2.5.0 (from moin==2.0.0a0)
+  Using cached Whoosh-2.7.0.tar.gz
+Collecting sphinx>=1.1 (from moin==2.0.0a0)
+  Using cached Sphinx-1.3.1-py2.py3-none-any.whl
+Collecting pdfminer==20110515 (from moin==2.0.0a0)
+  Using cached pdfminer-20110515.tar.gz
+Collecting passlib>=1.6.0 (from moin==2.0.0a0)
+  Using cached passlib-1.6.2.tar.gz
+Collecting XStatic>=0.0.2 (from moin==2.0.0a0)
+  Using cached XStatic-1.0.1.tar.gz
+Collecting XStatic-Bootstrap==3.1.1.2 (from moin==2.0.0a0)
+  Using cached XStatic-Bootstrap-3.1.1.2.tar.gz
+Collecting XStatic-Font-Awesome>=4.1.0.0 (from moin==2.0.0a0)
+  Using cached XStatic-Font-Awesome-4.3.0.0.tar.gz
+Collecting XStatic-CKEditor>=3.6.1.2 (from moin==2.0.0a0)
+  Using cached XStatic-CKEditor-3.6.4.0.tar.gz
+Collecting XStatic-autosize (from moin==2.0.0a0)
+  Using cached XStatic-autosize-1.17.2.1.tar.gz
+Collecting XStatic-jQuery>=1.8.2 (from moin==2.0.0a0)
+  Using cached XStatic-jQuery-1.10.2.1.tar.gz
+Collecting XStatic-jQuery-File-Upload==4.4.2 (from moin==2.0.0a0)
+  Using cached XStatic-jQuery-File-Upload-4.4.2.tar.gz
+Collecting XStatic-TWikiDraw-moin>=2004.10.23.2 (from moin==2.0.0a0)
+  Using cached XStatic-TWikiDraw-moin-2004.10.23.2.tar.gz
+Collecting XStatic-AnyWikiDraw>=0.14.2 (from moin==2.0.0a0)
+  Using cached XStatic-AnyWikiDraw-0.14.2.tar.gz
+Collecting XStatic-svg-edit-moin>=2012.11.15.1 (from moin==2.0.0a0)
+  Using cached XStatic-svg-edit-moin-2012.11.27.1.tar.bz2
+Collecting XStatic-JQuery.TableSorter>=2.14.5.1 (from moin==2.0.0a0)
+  Using cached XStatic-JQuery.TableSorter-2.14.5.1.tar.gz
+Collecting XStatic-Pygments>=1.6.0.1 (from moin==2.0.0a0)
+  Using cached XStatic-Pygments-1.6.0.1.tar.gz
+Collecting itsdangerous>=0.21 (from Flask>=0.10->moin==2.0.0a0)
+  Using cached itsdangerous-0.24.tar.gz
+Collecting Babel>=1.0 (from Flask-Babel>=0.7->moin==2.0.0a0)
+  Using cached Babel-1.3.tar.gz
+Collecting speaklater>=1.2 (from Flask-Babel>=0.7->moin==2.0.0a0)
+  Using cached speaklater-1.3.tar.gz
+Collecting six>=1.3.0 (from emeraldtree>=0.9.3dev->moin==2.0.0a0)
+  Using cached six-1.9.0-py2.py3-none-any.whl
+Collecting markupsafe (from Jinja2>=2.7->moin==2.0.0a0)
+  Using cached MarkupSafe-0.23.tar.gz
+Collecting py>=1.4.25 (from pytest<2.7->moin==2.0.0a0)
+  Using cached py-1.4.28-py2.py3-none-any.whl
+Collecting pytest-cache (from pytest-pep8<1.1->moin==2.0.0a0)
+  Using cached pytest-cache-1.0.tar.gz
+Collecting pep8>=1.3 (from pytest-pep8<1.1->moin==2.0.0a0)
+  Using cached pep8-1.6.2-py2.py3-none-any.whl
+Collecting sphinx-rtd-theme<0.2,>=0.1 (from sphinx>=1.1->moin==2.0.0a0)
+  Using cached sphinx_rtd_theme-0.1.8-py2.py3-none-any.whl
+Collecting snowballstemmer>=1.1 (from sphinx>=1.1->moin==2.0.0a0)
+  Using cached snowballstemmer-1.2.0.tar.gz
+Collecting alabaster<0.8,>=0.7 (from sphinx>=1.1->moin==2.0.0a0)
+  Using cached alabaster-0.7.4-py2-none-any.whl
+Collecting pytz>=0a (from Babel>=1.0->Flask-Babel>=0.7->moin==2.0.0a0)
+  Using cached pytz-2015.4-py2.py3-none-any.whl
+Collecting execnet>=1.1.dev1 (from pytest-cache->pytest-pep8<1.1->moin==2.0.0a0)
+  Using cached execnet-1.3.0-py2.py3-none-any.whl
+Installing collected packages: execnet, pytz, alabaster, snowballstemmer, sphinx-rtd-theme, pep8, pytest-cache, py, markupsafe, six, speaklater, Babel, itsdangerous, moin, XStatic-Pygments, XStatic-JQuery.TableSorter, XStatic-svg-edit-moin, XStatic-AnyWikiDraw, XStatic-TWikiDraw-moin, XStatic-jQuery-File-Upload, XStatic-jQuery, XStatic-autosize, XStatic-CKEditor, XStatic-Font-Awesome, XStatic-Bootstrap, XStatic, passlib, pdfminer, sphinx, whoosh, pytest-pep8, pytest, Werkzeug, pygments, Jinja2, flatland, emeraldtree, Flask-Themes, Flask-Script, Flask-Cache, Flask-Babel, Flask, Markdown, docutils, blinker
+
+
+
+  Running setup.py install for snowballstemmer
+
+
+  Running setup.py install for pytest-cache
+
+  Running setup.py install for markupsafe
+    building 'markupsafe._speedups' extension
+    clang -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c markupsafe/_speedups.c -o build/temp.macosx-10.10-x86_64-2.7/markupsafe/_speedups.o
+    clang -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.10-x86_64-2.7/markupsafe/_speedups.o -o build/lib.macosx-10.10-x86_64-2.7/markupsafe/_speedups.so
+
+  Running setup.py install for speaklater
+  Running setup.py install for Babel
+    Installing pybabel script to /Users/yask/final/moin-2.0-venv-python2.7/bin
+  Running setup.py install for itsdangerous
+  Running setup.py develop for moin
+    Creating /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/moin.egg-link (link to .)
+    Adding moin 2.0.0a0 to easy-install.pth file
+    Installing moin script to /Users/yask/final/moin-2.0-venv-python2.7/bin
+    Installed /Users/yask/final/moin-2.0
+    /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/pkg_resources/__init__.py:2510: PEP440Warning: 'Flask (Themes-0.2.0)' is being parsed as a legacy, non PEP 440, version. You may find odd behavior and sort order. In particular it will be sorted as less than 0.0. It is recommend to migrate to PEP 440 compatible versions.
+      PEP440Warning,
+  Running setup.py install for XStatic-Pygments
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_Pygments-1.6.0.1-py2.7-nspkg.pth
+  Running setup.py install for XStatic-JQuery.TableSorter
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_JQuery.TableSorter-2.14.5.1-py2.7-nspkg.pth
+  Running setup.py install for XStatic-svg-edit-moin
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_svg_edit_moin-2012.11.27.1-py2.7-nspkg.pth
+  Running setup.py install for XStatic-AnyWikiDraw
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_AnyWikiDraw-0.14.2-py2.7-nspkg.pth
+  Running setup.py install for XStatic-TWikiDraw-moin
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_TWikiDraw_moin-2004.10.23.2-py2.7-nspkg.pth
+  Running setup.py install for XStatic-jQuery-File-Upload
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_jQuery_File_Upload-4.4.2-py2.7-nspkg.pth
+  Running setup.py install for XStatic-jQuery
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_jQuery-1.10.2.1-py2.7-nspkg.pth
+  Running setup.py install for XStatic-autosize
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_autosize-1.17.2.1-py2.7-nspkg.pth
+  Running setup.py install for XStatic-CKEditor
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_CKEditor-3.6.4.0-py2.7-nspkg.pth
+  Running setup.py install for XStatic-Font-Awesome
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_Font_Awesome-4.3.0.0-py2.7-nspkg.pth
+  Running setup.py install for XStatic-Bootstrap
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic_Bootstrap-3.1.1.2-py2.7-nspkg.pth
+  Running setup.py install for XStatic
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/__init__.py (namespace package)
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/xstatic/pkg/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/XStatic-1.0.1-py2.7-nspkg.pth
+  Running setup.py install for passlib
+  Running setup.py install for pdfminer
+    changing mode of build/scripts-2.7/pdf2txt.py from 644 to 755
+    changing mode of build/scripts-2.7/dumppdf.py from 644 to 755
+    changing mode of build/scripts-2.7/latin2ascii.py from 644 to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/dumppdf.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/latin2ascii.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/pdf2txt.py to 755
+
+  Running setup.py install for whoosh
+  Running setup.py install for pytest-pep8
+    warning: no directories found matching 'doc'
+    warning: no directories found matching 'test_pep8.py'
+  Running setup.py install for pytest
+    Installing py.test-2.7 script to /Users/yask/final/moin-2.0-venv-python2.7/bin
+    Installing py.test script to /Users/yask/final/moin-2.0-venv-python2.7/bin
+  Running setup.py install for Werkzeug
+
+  Running setup.py install for Jinja2
+  Running setup.py install for flatland
+  Running setup.py install for emeraldtree
+  Running setup.py install for Flask-Themes
+    Skipping installation of /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/flaskext/__init__.py (namespace package)
+    Installing /Users/yask/final/moin-2.0-venv-python2.7/lib/python2.7/site-packages/Flask_Themes-0.2.0-py2.7-nspkg.pth
+  Running setup.py install for Flask-Script
+  Running setup.py install for Flask-Cache
+  Running setup.py install for Flask-Babel
+  Running setup.py install for Flask
+
+  Running setup.py install for docutils
+    changing mode of build/scripts-2.7/rst2html.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2s5.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2latex.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2xetex.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2man.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2xml.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2pseudoxml.py from 644 to 755
+    changing mode of build/scripts-2.7/rstpep2html.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2odt.py from 644 to 755
+    changing mode of build/scripts-2.7/rst2odt_prepstyles.py from 644 to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2html.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2latex.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2man.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2odt.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2odt_prepstyles.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2pseudoxml.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2s5.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2xetex.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rst2xml.py to 755
+    changing mode of /Users/yask/final/moin-2.0-venv-python2.7/bin/rstpep2html.py to 755
+  Running setup.py install for blinker
+Successfully installed Babel-1.3 Flask-0.10.1 Flask-Babel-0.9 Flask-Cache-0.13.1 Flask-Script-1.0.0 Flask-Themes-0.2.0 Jinja2-2.7.3 Markdown-2.6.2 Werkzeug-0.9.6 XStatic-1.0.1 XStatic-AnyWikiDraw-0.14.2 XStatic-Bootstrap-3.1.1.2 XStatic-CKEditor-3.6.4.0 XStatic-Font-Awesome-4.3.0.0 XStatic-JQuery.TableSorter-2.14.5.1 XStatic-Pygments-1.6.0.1 XStatic-TWikiDraw-moin-2004.10.23.2 XStatic-autosize-1.17.2.1 XStatic-jQuery-1.10.2.1 XStatic-jQuery-File-Upload-4.4.2 XStatic-svg-edit-moin-2012.11.27.1 alabaster-0.7.4 blinker-1.3 docutils-0.12 emeraldtree-0.10.0 execnet-1.3.0 flatland-0.8 itsdangerous-0.24 markupsafe-0.23 moin passlib-1.6.2 pdfminer-20110515 pep8-1.6.2 py-1.4.28 pygments-2.0.2 pytest-2.6.4 pytest-cache-1.0 pytest-pep8-1.0.6 pytz-2015.4 six-1.9.0 snowballstemmer-1.2.0 speaklater-1.3 sphinx-1.3.1 sphinx-rtd-theme-0.1.8 whoosh-2.7.0
+running compile_catalog
+393 of 406 messages (96%) translated in 'MoinMoin/translations/de/LC_MESSAGES/messages.po'
+compiling catalog 'MoinMoin/translations/de/LC_MESSAGES/messages.po' to 'MoinMoin/translations/de/LC_MESSAGES/messages.mo'
+294 of 406 messages (72%) translated in 'MoinMoin/translations/pt_BR/LC_MESSAGES/messages.po'
+compiling catalog 'MoinMoin/translations/pt_BR/LC_MESSAGES/messages.po' to 'MoinMoin/translations/pt_BR/LC_MESSAGES/messages.mo'
+294 of 406 messages (72%) translated in 'MoinMoin/translations/ru/LC_MESSAGES/messages.po'
+compiling catalog 'MoinMoin/translations/ru/LC_MESSAGES/messages.po' to 'MoinMoin/translations/ru/LC_MESSAGES/messages.mo'
+
+Pip cache location is at /Users/yask/.pip/pip-download-cache
+
+Successfully created or updated venv at /Users/yask/final/moin-2.0-venv-python2.7

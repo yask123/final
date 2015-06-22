@@ -1,0 +1,44 @@
+<p>
+	HTML documents are edited through the use of the CKEditor.&nbsp; See <a href="http://ckeditor.com">http://ckeditor.com</a> for more information or click the Modify link to edit this document.</p>
+<h2>
+	TODO</h2>
+<p>
+	Enhance this document and note the broken parts.&nbsp; For example, under the table heading below the table caption is not displayed and the table headers are formatted incorrectly and appear detached from the table.</p>
+<h2>
+	Lists</h2>
+<ol>
+	<li>
+		one</li>
+	<li>
+		two</li>
+</ol>
+<h2>
+	Tables</h2>
+<table align="left" border="1" cellpadding="3" cellspacing="0" style="width: 500px;">
+	<caption>
+		Fruit Colors</caption>
+	<thead>
+		<tr>
+			<th scope="col">
+				Fruit</th>
+			<th scope="col">
+				Color</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Apple</td>
+			<td>
+				Red</td>
+		</tr>
+		<tr>
+			<td>
+				Banana</td>
+			<td>
+				Yellow</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>

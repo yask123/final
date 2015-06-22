@@ -1,0 +1,10 @@
+#!/Users/yask/final/moin-2.0-venv-python2.7/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'moin==2.0.0a0','console_scripts','moin'
+__requires__ = 'moin==2.0.0a0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('moin==2.0.0a0', 'console_scripts', 'moin')()
+    )

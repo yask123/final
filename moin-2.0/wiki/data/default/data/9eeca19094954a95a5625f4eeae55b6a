@@ -1,0 +1,39 @@
+= Moin2 Test Content =
+
+This test content displays a wide variety of moin2 features.
+
+== Test Comment ==
+
+Click the '''Comments''' link to show/hide comments:  /* ''a test comment'' */
+
+== Test Transclusion ==
+
+Click the '''Transclusions''' link to show the content of the transclusions below:
+
+{{Home/subitem}}
+
+== Parsers with Auto Scroll ==
+
+Double-clicking any line within the content of this page or on any of the items below will auto-scroll the edit textarea to the line clicked.
+
+ * [[moin|Moin Wiki markup item]]
+ * [[creole|Creole Wiki markup item]]
+ * [[rst|ReST markup item]]
+ * [[markdown|Markdown markup item]]
+ * [[docbook|DocBook XML markup item]]
+ * [[mediawiki|Media Wiki markup item]]
+
+== Other Demo Items ==
+
+ * [[html|html item]]
+ * [[zip]] and [[targz]]
+ * [[images]] - [[jpeg]], [[png]] and [[svg]]
+ * Media - [[video.mp4]] and [[audio.mp3]]
+ * [[OtherTextItems]]
+
+== Items with Non-English Names ==
+
+ * [[AjudaNaFormatação]]
+ * [[StronaGłówna]]
+ * [[ШаблонДомашняяСтраница]]
+
